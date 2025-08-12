@@ -49,3 +49,20 @@ ID_ZAPI = "id_da_instancia_aqui"
 ``` 
 > **Observação:** vale ressaltar que a versão *trial* possui validade de pouco mais de dois dias.
 
+## Utilização
+
+Para executar o projeto, siga os passos abaixo:
+
+1. Faça login no Z-API e acesse **Instâncias Web**.  
+2. Selecione a instância desejada e registre o WhatsApp que será usado para o envio automático das mensagens.  
+3. No projeto está configurada uma mensagem no formato:
+
+```python
+"Olá {nome}, tudo bem com você?"
+```
+
+Essa mensagem será enviada automaticamente para os 3 primeiros contatos armazenados no Supabase.
+
+
+
+
