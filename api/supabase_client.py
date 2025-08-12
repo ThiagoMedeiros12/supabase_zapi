@@ -1,4 +1,4 @@
-from chaves import SUPABASE_URL,KEY
+from api.chaves import SUPABASE_URL,KEY
 from supabase import create_client, Client
 
 

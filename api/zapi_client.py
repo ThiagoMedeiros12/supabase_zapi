@@ -1,5 +1,5 @@
 import requests
-from chaves import  TOKEN_ZAPI ,ID_ZAPI
+from api.chaves import  TOKEN_ZAPI ,ID_ZAPI
 
 def send_mensagem(phone_number, name):
     instance = ID_ZAPI
