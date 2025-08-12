@@ -14,8 +14,8 @@ Para criar o banco de dados no Supabase, é necessário registrar uma conta e cr
 No meu caso, utilizei uma tabela com 3 campos:
 
 - **id** — tipo: `uuid`, chave aleatória  
-- **nome** — tipo: `text`, não permite `null`, valor padrão  
-- **numero** — tipo: `text`, não permite `null`, valor padrão  
+- **nome** — tipo: `text`, não permite `null` e valor padrão  
+- **numero** — tipo: `text`, não permite `null`e valor padrão  
 
 Após criar a tabela, foi necessário **desabilitar o RLS** (*Row Level Security*).  
 
