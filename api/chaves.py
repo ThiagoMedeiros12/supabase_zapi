@@ -1,0 +1,3 @@
+SUPABASE_URL="https://dkoawgndschrvbqojibl.supabase.co"
+KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRrb2F3Z25kc2NocnZicW9qaWJsIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NTAxMjYzMywiZXhwIjoyMDcwNTg4NjMzfQ.3cLTnNT5KIrUSGGwTIKG-dkNQN-4NWJxftiGVtIF3vY"
+
