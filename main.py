@@ -7,7 +7,7 @@ def main():
         print("Nenhum contato encontrado no Supabase.")
         return 
     
-    for contato in contatos[:1]:
+    for contato in contatos[:4]:
         send_mensagem(contato['numero'],contato['nome'])
       
 if __name__ == "__main__":

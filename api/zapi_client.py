@@ -4,7 +4,7 @@ from api.chaves import  TOKEN_ZAPI ,ID_ZAPI
 def send_mensagem(phone_number, name):
     instance = ID_ZAPI
     token = TOKEN_ZAPI
-    url = f"https://api.z-api.io/{instance}/3E59DCAA06CBF06B9EE9C200745B43DD/{token}/4D7BBDCFE51B42D8AE1065DA/send-text"
+    url = f"https://api.z-api.io/instances/{instance}/token/{token}/send-text"
     payload = {
         "phone": phone_number,
         "message": f"Olá {name}, tudo bem com você?"        
