@@ -40,14 +40,14 @@ KEY = "sua_apikey_aqui"
 1. Crie uma conta em [Z-API](https://www.z-api.io/).
 2. Assim que for criada a conta irá aparecer uma **token de segurança da conta** essa será nossa **CLIENT_TOKEN**
 3. Após o cadastro, acesse **Instâncias Web** e clique em **+ Adicionar** para criar uma nova instância — atribua um nome a ela.  
-4. Quando a instância for criada, selecione-a para visualizar o **ID da instância** e o **token**.
+4. Quando a instância for criada, selecione-a para visualizar o **ID da instância** e o **token_instancia**.
 
 No projeto, essas duas chaves são definidas no arquivo `chaves.py`:
 
 ```python
-TOKEN_ZAPI = "seu_token_aqui"
-ID_ZAPI = "id_da_instancia_aqui"
-CLIENT_TOKEN = "token_gerada_login"
+TOKEN_ZAPI = "token_instancia"
+ID_ZAPI = "id_instancia"
+CLIENT_TOKEN = "client_token"
 ``` 
 > **Observação:** vale ressaltar que a versão *trial* possui validade de pouco mais de dois dias.
 
